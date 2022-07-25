@@ -1,0 +1,2 @@
+#!bin/bash
+find .  -name '*~' -true -delete -print -or -name '#*#' -print -delete -type f
